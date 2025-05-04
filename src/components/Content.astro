@@ -1,0 +1,55 @@
+---
+import Background from "../assets/background.jpg";
+import logo from "../assets/logo.png";
+---
+
+<section>
+  <div
+    class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between items-center"
+  >
+    <div
+      class="flex flex-col justify-center flex-[1] p-6 rounded-sm lg:max-w-lg xl:max-w-xl lg:text-left"
+    >
+      <a href="/" title="home">
+        <img
+          src={logo.src}
+          alt="LeedStone Landscapes"
+          class="hidden sm:block"
+          width="250"
+        />
+        <img
+          src={logo.src}
+          alt="LeedStone Landscapes"
+          width="180"
+          class="sm:hidden"
+        />
+      </a>
+      <h1 class="text-5xl font-bold leading-none sm:text-6xl mt-6">
+        Perth's Local <span class="text-green-dark">Landscaping </span> Experts.
+      </h1>
+      <p class="mt-6 mb-8 text-lg sm:mb-12">
+        While we're planting our new site, call us to grow your dream garden
+        now!
+      </p>
+      <div
+        class="flex flex-col w-max space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start"
+      >
+        <a
+          rel="noopener noreferrer"
+          href="tel:0409377564"
+          class="px-8 py-3 text-lg font-semibold rounded bg-green-light text-green-text"
+          >Call 0409 377 564
+        </a>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center sm:p-6 mt-8 lg:mt-0 h-64 sm:h-72 lg:h-80 xl:h-96 2xl:h-112 w-full sm:w-auto"
+    >
+      <img
+        src={Background.src}
+        alt=""
+        class="object-cover sm:object-contain w-full lg:mt-0 h-64 sm:h-72 lg:h-80 xl:h-96 2xl:h-112 py-6"
+      />
+    </div>
+  </div>
+</section>
