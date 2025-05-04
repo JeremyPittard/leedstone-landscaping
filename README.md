@@ -1,16 +1,10 @@
-# Astro Starter Kit: Basics
+# LeedStone Landscapes - New Website (Under Cultivation)
 
-```sh
-npm create astro@latest -- --template basics
-```
+This README.md provides information about the project structure and commands for the LeedStone Landscapes website, which is currently under development.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Project Overview
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+LeedStone Landscapes is building a new website using Astro and Tailwind CSS to better serve our customers in Perth, Western Australia. This temporary landing page is a placeholder while the full site is under development.
 
 ## 🚀 Project Structure
 
@@ -19,14 +13,14 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   └── # Static assets like images, fonts, etc.
 ├── src/
 │   ├── layouts/
-│   │   └── Layout.astro
+│   │   └── Layout.astro # Base layout for your pages
 │   └── pages/
-│       └── index.astro
-└── package.json
-```
+│       └── index.astro # The main landing page
+├── tailwind.config.mjs # Tailwind CSS configuration file
+└── package.json       # Lists project dependencies and scripts
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
@@ -46,3 +40,4 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```
